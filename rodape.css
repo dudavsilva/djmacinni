@@ -1,0 +1,29 @@
+﻿
+.rodape{
+	background:#E5E9F2;
+	padding: 1em 5em;
+}
+
+.box{
+	background-color: #8190A5;
+    border-radius: 5px;
+    width: 142px;
+    height: 30px;
+	font-size: 26px;
+    text-align: center;
+}
+
+.icones{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.icons{
+    height: 64px;
+	width: 64px;
+}
+
+.email{
+	text-align: end;
+    font-size: 26px;
+}

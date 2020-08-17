@@ -1,0 +1,87 @@
+﻿.conteudo{
+	padding: 2rem 2rem;
+}
+
+.galeria_titulo{
+	text-align: center;
+    font-size: 40px;
+    line-height: 50px;
+    color: #47525E;
+    margin-bottom: 2rem;
+}
+
+.sobre{
+  color: #8190A5;
+  font-family: Lato;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  padding: 0em 10em 0em 10em;
+}
+
+.galeria_caixa{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+	height: calc(100vh - 450px);
+	padding: 5em 8em;
+}
+
+.foto1{
+	background:url(vermelho.jpg) top / cover no-repeat;
+	grid-column: 3/5;
+	grid-row: 1/3;
+}
+
+.foto2{
+	background: url(amarelo.jpg) center / cover no-repeat;
+	grid-row: 1/3;
+    grid-column: 1/3;
+}
+
+.foto3{
+	background: url(rosa.jpg) center / cover no-repeat;
+	grid-row: 3/5;
+    grid-column: 1/3;
+}
+
+.foto4{
+	background: url(cinza.jpg) right / cover no-repeat;
+	grid-column: 3/4;
+    grid-row: 3/5;
+}
+
+.foto5{
+	background: url(azul.jpg) center / cover no-repeat;
+	grid-column: 4/4;
+    grid-row: 3/5;
+}
+
+.rodape{
+	background:#E5E9F2;
+	padding: 1em 5em;
+}
+
+.box{
+	background-color: #8190A5;
+    border-radius: 5px;
+    width: 142px;
+    height: 30px;
+	font-size: 26px;
+    text-align: center;
+}
+
+.icones{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.icons{
+    height: 64px;
+	width: 64px;
+}
+
+.email{
+	text-align: end;
+    font-size: 26px;
+}

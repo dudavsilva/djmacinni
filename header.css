@@ -1,0 +1,77 @@
+.pagina{
+    background: #f1f1f1;
+    color: #47525E;
+    font-family: 'Lato', sans-serif;
+}
+
+.cabecalho {
+  background-color: #F1E5F2;
+  height: 450px;
+
+}
+
+.menu{
+    font-size: 18px;
+    width:100%;
+}
+
+.menu_principal{
+    padding: 35px 150px 30px 0;
+}
+
+.menu_lista{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.menu_item{
+    display: inline; 
+}
+
+.menu_item a{
+     padding: 2px 10px;
+    display: inline-block;
+}
+
+.destaque{
+  display: flex;
+}
+
+.logo_imagem{
+  position: absolute;
+}
+
+.logo{
+  width: auto;
+  height: 318px;
+  padding-left: 7%;
+}
+
+.escute{
+    padding-left: 45%;
+    margin-top: 6%;
+    text-align: center;
+
+}
+
+.titulo{
+	font-size: 48px;
+    text-align: center;
+}
+
+.ouca_agora{
+    background: #8190A5;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    height: 50px;
+    margin-top: 20px;
+    text-decoration: none;
+    width: 192px;
+}
+
+.link{
+    color: #FFFFFF;
+    text-decoration: none;
+}

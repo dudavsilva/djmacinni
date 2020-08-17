@@ -24,6 +24,18 @@
 }
 
 .email{
-	text-align: end;
+    text-align: end;
     font-size: 26px;
+}
+
+@media (max-width: 768px){
+
+	.box{
+	width: auto;
+	}
+
+	.icones{
+		justify-content: center;
+	}
+
 }

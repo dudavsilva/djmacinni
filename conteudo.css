@@ -85,3 +85,37 @@
 	text-align: end;
     font-size: 26px;
 }
+
+@media (max-width: 768px){
+	.sobre{
+		display: contents;
+	}
+
+	.galeria_titulo{
+		flex-direction: columns;
+	}
+
+	.galeria_caixa{
+		display: grid;
+		grid-template-columns: 100%;
+		grid-template-rows: 25% 25% 25% 25%;
+		padding: 1em;
+	}
+
+	.foto1{
+		grid-column: 1/2;
+		grid-row: 1/5;
+	}
+
+	.foto2{
+		display: none;
+	}
+	
+	.foto3{
+		display:none;
+	}
+
+	.email{
+		text-align: center;
+	}
+}

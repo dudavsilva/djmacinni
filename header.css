@@ -76,3 +76,26 @@
     color: #FFFFFF;
     text-decoration: none;
 }
+
+@media (max-width: 768px){
+     .logo_imagem{
+     display: none;
+    }
+
+    .escute{
+        padding: 0;
+        flex: auto;
+    }
+
+    .menu_principal{
+        padding: 2em;
+    }
+
+    .menu_lista{
+        width: 90%;
+    }
+
+    .destaque{
+        height: 300px;
+    }
+}

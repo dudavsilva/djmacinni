@@ -31,11 +31,16 @@
 @media (max-width: 768px){
 
 	.box{
-	width: auto;
+		width: auto;
 	}
 
 	.icones{
 		justify-content: center;
 	}
+	
+	.email{
+	 	display: flex;
+    		justify-content: space-around;
+	{
 
 }

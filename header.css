@@ -32,6 +32,8 @@
 .menu_item a{
      padding: 2px 10px;
     display: inline-block;
+    text-decoration: none;
+    color: #47525E;
 }
 
 .destaque{
@@ -67,7 +69,6 @@
     color: white;
     height: 50px;
     margin-top: 20px;
-    text-decoration: none;
     width: 192px;
 }
 
